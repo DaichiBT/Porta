@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Video - Life Sim Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Optional inline styles for the video page */
+    body {
+      background: #111;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1rem;
+    }
+    .video-container {
+      max-width: 800px;
+      width: 100%;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      border: 5px solid #f39c12;
+      border-radius: 10px;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #f39c12;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .back-btn:hover {
+      background: #e67e22;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video controls>
+      <source src="videos/AWT100.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <br />
+    <a href="index.html" class="back-btn">Back to Portfolio</a>
+  </div>
+</body>
+</html>
